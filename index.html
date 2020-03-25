@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <title>Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Superquiz</h1>
+    <br>  
+
+    <form id="quiz" name="quiz">
+      <p>1. Vad heter Spiderman egentligen?</p>
+      <input type="radio" id="mc" name="question1" value="anders">Anders<br>
+      <input type="radio" id="mc" name="question1" value="peter">Peter<br>
+      <input type="radio" id="mc" name="question1" value="oliver">Oliver<br><br>
+
+      <p>2. Vad heter det gömda landet i "The Black Panther"?</p>
+      <input type="radio" id="mc" name="question2" value="wakanda">Wakanda<br>
+      <input type="radio" id="mc" name="question2" value="ikana">Ikana<br>
+      <input type="radio" id="mc" name="question2" value="zankanda">Zankanda<br><br>
+
+      <p>3. I första "Captain Amerika"- filmen står ett visst krig i centrum, vilket?</p>
+      <input type="radio" id="mc" name="question3" value="wwii">WW II<br>
+      <input type="radio" id="mc" name="question3" value="wwi">WW I<br>
+      <input type="radio" id="mc" name="question3" value="vietnam">Vietnam<br><br>
+
+      <p>4. Vem är detta?</p>
+      <img class="blackwidow" src="img/blackwidow.jpg"><br>
+      <input type="radio" id="mc" name="question4" value="captainmarvel">Captian Marvel<br>
+      <input type="radio" id="mc" name="question4" value="wonderwoman">Wonder Woman<br>
+      <input type="radio" id="mc" name="question4" value="blackwidow">Black Widow<br><br>
+
+
+      <p>5. Vad är namnet på Starlords kasettband?</p>
+      <input type="radio" id="mc" name="question5" value="mytape">MY TAPE<br>
+      <input type="radio" id="mc" name="question5" value="superhits">Superhits No.1<br>
+      <input type="radio" id="mc" name="question5" value="awesomemix">Awesome Mix VOL.1<br><br>
+
+      <p>6. Vilken färg antar Hulken?</p>
+      <input type="radio" id="mc" name="question6" value="bla">Blå<br>
+      <input type="radio" id="mc" name="question6" value="gron">Grön<br>
+      <input type="radio" id="mc" name="question6" value="rod">Röd<br><br>
+
+      <p>Vad heter Thors hammare?</p>
+      <input type="radio" id="mc" name="question7" value="mjolnir">Mjölner<br>
+      <input type="radio" id="mc" name="question7" value="hammaren">Hammaren<br>
+      <input type="radio" id="mc" name="question7" value="blixten">Blixten<br><br>
+
+      <p>8. Varför har Iron Man en lysande låda på bröstet?</p>
+      <input type="radio" id="mc" name="question8" value="ballt">Det är ballt<br>
+      <input type="radio" id="mc" name="question8" value="drakten">Den tillhör dräkten<br>
+      <input type="radio" id="mc" name="question8" value="dor">Han dör utan den<br><br>
+
+      <p>9. Vilken infinity-sten har Dr. Strange? (det fick bli på engelska)</p>
+      <input type="radio" id="mc" name="question9" value="mind">Mind<br>
+      <input type="radio" id="mc" name="question9" value="time">Time<br>
+      <input type="radio" id="mc" name="question9" value="space">Space<br><br>
+
+      <p>10. Vem är Loki?</p>
+      <input type="radio" id="mc" name="question10" value="bror">Thors bror<br>
+      <input type="radio" id="mc" name="question10" value="pappa">Thors pappa<br>
+      <input type="radio" id="mc" name="question10" value="kusin">Thors kusin<br><br>
+
+      <input type="button" id="button" value="KLAR" onclick="check();"><br><br>
+
+    </form>
+
+    <div id="after_submit">
+      <p id="number_correct"></p>
+    </div>
+
+  </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="skript.js"></script>
+  </body>
+</html>

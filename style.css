@@ -1,0 +1,16 @@
+body{
+	background-color: white;
+	font-family: Verdana;
+}
+
+.container{
+	/*text-align: center;*/
+}
+
+.blackwidow{
+	width: 150px;
+}
+
+#after_submit{
+	visibility: hidden;
+}
