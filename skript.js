@@ -44,10 +44,40 @@ function check() {
 			correct++;
 		}
 
+
+
+		var meddelanden = ["Det var inte så bra...", "Det hade kunnat gå både bättre och sämre ;)", "Nära toppen, men inte nära nog - tummen upp", "Du kan verkligen din Marvel - BRA JOBBAT!!"];
+		var bilder = ["img/bad.gif", "img/nja.gif", "img/tummenupp.gif", "img/success.gif"]
+
+
+		var range;
+
+			if(correct < 4){
+				range=0;
+			}
+
+			if(correct > 3 && correct < 7){
+				range=1;
+			}
+
+			if(correct > 6 && correct < 10){
+				range=2;
+			}
+
+			if(correct == 10){
+				range=3;
+			}
+
+
+
+
+
 	document.getElementById("after_submit").style.visibility="visible";
+
+	document.getElementById("meddelande").innerHTML=meddelanden[range];
 	document.getElementById("number_correct").innerHTML = "Du  fick " + correct + " rätt.";
+	document.getElementById("bilden").src=bilder[range];
 }
 
-/*Du är några minuter bakåt i youtubevideon. Han har börjat förklara hur man lägger in lite roliga
-memes men du har problev vi scoren;)*/
+
 

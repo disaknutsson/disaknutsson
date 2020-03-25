@@ -3,6 +3,12 @@ body{
 	font-family: Verdana;
 }
 
+h1{
+	font-family: monospace;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
 .container{
 	/*text-align: center;*/
 }
@@ -14,3 +20,22 @@ body{
 #after_submit{
 	visibility: hidden;
 }
+/*för snyggheter i hemsidan*/
+.vitbakgrund{
+	background-color: #ffbb99;
+}
+/*Använde denna på teknistsidan och jag tyckte att det blev väldigt fint*/
+.skugga{
+	box-shadow: 10px 10px #ff0066;
+}
+/*centrerar text :)*/
+.centrera{
+	text-align: center;
+}
+
+.mellanrum{
+	padding: 20px;
+}
+
+
+
